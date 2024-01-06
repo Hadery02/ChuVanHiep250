@@ -13,4 +13,5 @@ using ChuVanHiep250.Models;
         }
 
         public DbSet<ChuVanHiep250.Models.LapTop> LapTop { get; set; } = default!;
+        public DbSet<ChuVanHiep250.Models.KhachHang> KhachHang { get; set; } = default!;
     }
